@@ -138,28 +138,143 @@
 
 
 
-    <!-- ===== LIST SECTION ===== -->
-    <section id="list">
-        <h2>Lists</h2>
 
-        <h3>Unordered List</h3>
+
+        <!-- ===== LIST SECTION (ADVANCED) ===== -->
+
+<section id="list">
+
+<h2>Lists in HTML (Detailed)</h2>
+
+<!-- ================= UNORDERED LIST ================= -->
+<h3>1. Unordered List (ul)</h3>
+<!-- Used when order does NOT matter (bullets) -->
+
+<ul type="disc">
+    <!-- type can be: disc (default), circle, square -->
+
+    <li>HTML</li>
+    <li>CSS</li>
+    <li>JavaScript</li>
+</ul>
+
+
+<!-- ================= NESTED LIST ================= -->
+<h3>2. Nested List (List inside List)</h3>
+
+<ul>
+    <li>Frontend
         <ul>
             <li>HTML</li>
             <li>CSS</li>
         </ul>
+    </li>
 
-        <h3>Ordered List</h3>
-        <ol>
-            <li>Step 1</li>
-            <li>Step 2</li>
-        </ol>
+    <li>Backend
+        <ul>
+            <li>Node.js</li>
+            <li>Database</li>
+        </ul>
+    </li>
+</ul>
 
-        <h3>Description List</h3>
-        <dl>
-            <dt>HTML</dt>
-            <dd>Structure of website</dd>
-        </dl>
-    </section>
+
+<!-- ================= ORDERED LIST ================= -->
+<h3>3. Ordered List (ol)</h3>
+<!-- Used when order matters -->
+
+<ol type="1" start="1">
+    <!-- type options: 1, A, a, I, i -->
+    <!-- start = starting number -->
+
+    <li>Install VS Code</li>
+    <li>Learn HTML</li>
+    <li>Practice Projects</li>
+</ol>
+
+
+<!-- ================= REVERSED LIST ================= -->
+<h3>4. Reversed Ordered List</h3>
+
+<ol reversed>
+    <!-- Shows list in reverse order -->
+
+    <li>Step 3</li>
+    <li>Step 2</li>
+    <li>Step 1</li>
+</ol>
+
+
+<!-- ================= DESCRIPTION LIST ================= -->
+<h3>5. Description List (dl)</h3>
+<!-- Used for definitions / key-value -->
+
+<dl>
+    <dt>HTML</dt>
+    <!-- Definition term -->
+
+    <dd>Structure of a website</dd>
+    <!-- Definition description -->
+
+    <dt>CSS</dt>
+    <dd>Design and styling</dd>
+
+    <dt>JavaScript</dt>
+    <dd>Logic and interactivity</dd>
+</dl>
+
+
+<!-- ================= ADVANCED DESCRIPTION ================= -->
+<h3>6. Multiple Descriptions</h3>
+
+<dl>
+    <dt>Developer</dt>
+    <dd>Writes code</dd>
+    <dd>Builds applications</dd>
+</dl>
+
+
+<!-- ================= MENU STYLE LIST ================= -->
+<h3>7. Navigation Menu Example</h3>
+
+<ul>
+    <li><a href="#">Home</a></li>
+    <li><a href="#">About</a></li>
+    <li><a href="#">Contact</a></li>
+</ul>
+
+
+<!-- ================= TASK LIST (SIMULATION) ================= -->
+<h3>8. Task List (Checkbox Style)</h3>
+
+<ul>
+    <li><input type="checkbox"> Learn HTML</li>
+    <li><input type="checkbox"> Learn CSS</li>
+    <li><input type="checkbox"> Build Project</li>
+</ul>
+
+
+<!-- ================= MIXED LIST ================= -->
+<h3>9. Mixed List (Ordered + Unordered)</h3>
+
+<ol>
+    <li>Frontend
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+        </ul>
+    </li>
+
+    <li>Backend
+        <ul>
+            <li>Node</li>
+            <li>Database</li>
+        </ul>
+    </li>
+</ol>
+
+
+</section>
 
 
 
